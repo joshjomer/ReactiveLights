@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="Assets/matrixhappy.png" type="image/png">
+  <title>Reactive Lights</title>
+</head>
+<style>
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: black;    /* 🔲 background */
+      color: red;               /* 🔤 text */
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* horizontal center */
+      /*align-items: center;     /* vertical center */
+    }
+
+    
+
+    
+    .centered {
+      text-align: center;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    
+</style>
+<body>
+  <div class ="centered">
+    <h1 style="font-size: 50px;">Reactive Lights </h1>
+  </div>
+
+  <div class ="centered">
+    <img src="Assets/reactivelights2.png" alt="A description of the image" width="75%">
+  </div>
+
+  <div class ="centered">
+    <button id="startBtn">Get Started</button>
+  </div>  
+
+  <div class ="centered">
+    <p style="font-size: 25px; color: white;">Built by 
+      <a href="https://www.linkedin.com/in/josh-ej/" target="_blank" style="color: white;">Josh Elias Joy</a>         
+      &nbsp; &nbsp; Portfolio:  
+      <a href="https://joshjoy.in/projects/" target="_blank" style="color: white;">joshjoy.in/projects/</a> 
+    </p>
+  </div> 
+
+  <script>
+    document.getElementById("startBtn").addEventListener("click", function() {
+      // Navigate to another page
+      window.location.href = "main.html"; // Replace with your target page
+    });
+  </script>
+
+   
+</body>
+</html>
